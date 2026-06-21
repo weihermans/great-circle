@@ -1,13 +1,27 @@
 {
-  "name": "@flyvolo/great-circle",
+  "name": "volo-great-circle",
   "version": "1.0.0",
   "description": "Great-circle distance, bearing and midpoint between coordinates (haversine). Zero dependencies. By VOLO.",
   "main": "index.js",
   "type": "commonjs",
-  "scripts": { "test": "node test.js" },
-  "keywords": ["great-circle","haversine","distance","bearing","geo","aviation","nautical-miles","volo"],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "great-circle",
+    "haversine",
+    "distance",
+    "bearing",
+    "geo",
+    "aviation",
+    "nautical-miles",
+    "volo"
+  ],
   "homepage": "https://www.flyvolo.ai",
-  "repository": { "type": "git", "url": "https://github.com/weihermans/great-circle.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weihermans/great-circle.git"
+  },
   "author": "VOLO Technologies Pte. Ltd. (https://www.flyvolo.ai)",
   "license": "MIT"
 }

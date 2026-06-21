@@ -1,4 +1,4 @@
-# @flyvolo/great-circle
+# volo-great-circle
 
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 
@@ -6,8 +6,14 @@ Great-circle **distance**, **bearing** and **midpoint** between coordinates — 
 
 Part of [**VOLO**](https://www.flyvolo.ai)'s open aviation toolkit.
 
+## Install
+
+```bash
+npm install volo-great-circle
+```
+
 ```js
-const { distance, bearing } = require("@flyvolo/great-circle");
+const { distance, bearing } = require("volo-great-circle");
 
 const JFK = { lat: 40.6413, lon: -73.7781 };
 const LHR = { lat: 51.4700, lon: -0.4543 };
